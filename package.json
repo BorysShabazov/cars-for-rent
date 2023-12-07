@@ -5,7 +5,7 @@
   "homepage": "https://ribacot.github.io/cars-for-rent/",
   "dependencies": {
     "axios": "^1.6.2",
-    "cra-template": "1.2.0",
+    
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^9.0.2",
