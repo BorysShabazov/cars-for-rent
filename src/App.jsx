@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { SharedLayout } from "./components/SharedLayout/SharedLayout";
+import { Catalog } from "./pages/Catalog/Catalog";
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <Routes>
         <Route path="/" element={<SharedLayout />}>
           <Route index element={<div>main 1243</div>} />
-          <Route path="catalog" element={<div>catalog page</div>} />
+          <Route path="catalog" element={<Catalog />} />
           <Route path="favorites" element={<div>favorites page</div>} />
           <Route path="*" element={<div>not found</div>} />
         </Route>
