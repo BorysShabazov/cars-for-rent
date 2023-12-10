@@ -9,13 +9,16 @@ module.exports = {
       container: {
         center: true,
         padding: {
-          DEFAULT: "16px",
+          DEFAULT: "128px",
         },
         margin: false,
       },
       colors: {
-        blue: "#54ADFF",
+        blue: "#3470FF",
         white: "#FFF",
+        gray: "#8A8A89",
+        lightgray: "#F7F7FB",
+        black: "#121417",
       },
     },
   },

@@ -31,7 +31,6 @@ const carsSlice = createSlice({
     // fetch
     builder.addCase(fetchCars.pending, pendingFunc);
     builder.addCase(fetchCars.fulfilled, (_, action) => {
-      console.log(action.payload);
       return {
         items: [...action.payload],
         isLoading: false,
