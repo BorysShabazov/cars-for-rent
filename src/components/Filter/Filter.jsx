@@ -6,8 +6,8 @@ import { useState } from "react";
 export const Filter = () => {
   const [makeOpen, setMakeOpen] = useState(false);
   const [priceOpen, setPriceOpen] = useState(false);
-  const [makeChange, setMakeChange] = useState(false);
-  const [rentPrice, setRentPrice] = useState(false);
+  // const [makeChange, setMakeChange] = useState(false);
+  // const [rentPrice, setRentPrice] = useState(false);
   const [minMileage, setMinMileage] = useState("From ");
   const [maxMileage, setMaxMileage] = useState("To ");
 
