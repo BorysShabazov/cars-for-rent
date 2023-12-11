@@ -14,7 +14,7 @@ export const Catalog = () => {
   }, [dispatch]);
 
   return (
-    <div className="container m-0">
+    <div className="container m-0 pb-[100px]">
       <Filter />
       <ul className="flex gap-[30px] flex-wrap  justify-center">
         {cars.map((el) => (

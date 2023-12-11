@@ -8,7 +8,7 @@ const navArr = [
 ];
 
 export const MainNav = () => (
-  <ul className="flex gap-[4px] container justify-around">
+  <ul className="flex gap-[4px] container justify-around py-[16px] m-0">
     {navArr.map(({ path, text }) => (
       <li key={text}>
         <NavLink to={path} className="text-xl font-medium hover:text-blue">

@@ -3,3 +3,9 @@
 @tailwind utilities;
 
 @import "./assets/fonts/custom-fonts.css";
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
