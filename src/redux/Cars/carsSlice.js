@@ -30,9 +30,9 @@ const carsSlice = createSlice({
   extraReducers: (builder) => {
     // fetch
     builder.addCase(fetchCars.pending, pendingFunc);
-    builder.addCase(fetchCars.fulfilled, (_, action) => {
+    builder.addCase(fetchCars.fulfilled, (state, action) => {
       return {
-        items: [...action.payload],
+        items: [...state.items, ...action.payload],
         isLoading: false,
         error: null,
       };

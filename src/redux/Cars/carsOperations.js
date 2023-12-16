@@ -8,11 +8,12 @@ const instance = axios.create({
 
 export const fetchCars = createAsyncThunk(
   "cars/fetchCars",
-  async ({ page, limit }, thunkAPI) => {
+  async ({ page, limit, search }, thunkAPI) => {
     try {
       const params = new URLSearchParams({
         page,
         limit,
+        search,
       });
       const response = await instance.get(`/cars`, {
         params,
